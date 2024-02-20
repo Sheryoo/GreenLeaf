@@ -1,4 +1,5 @@
 from flask import request, jsonify
+from helpers.class_names import class_names
 from helpers.upload_images import upload_file
 from werkzeug.utils import secure_filename
 
@@ -28,8 +29,6 @@ def classify_image():
 
     prediction = model.predict(img_array)
     confidence = round(100*(np.max(prediction[0])), 2)
-    print(prediction)
-    print(confidence)
-    return jsonify({"status": True, "message": "success", "data": {'predictions': prediction[0].tolist(), "confidence": confidence, "image": plantPath}}), 200
-    # finall_class = class_names()[np.argmax(prediction)]
-    # return jsonify({"status": True, "message": "success", "data": {'predictions': finall_class, "confidence": confidence, "image": plantPath}}), 200
+    finall_class = class_names()[np.argmax(prediction)]
+    
+    return jsonify({"status": True, "message": "success", "data": {'predictions': finall_class, "confidence": confidence, "image": plantPath}}), 200
