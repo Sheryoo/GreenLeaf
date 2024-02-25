@@ -1,9 +1,9 @@
 import os
-from flask import jsonify, request
+from flask import request
 from werkzeug.utils import secure_filename
 
 
-def upload_file(name,folder):
+def upload_file(name, folder):
     if name not in request.files:
         return None
 
@@ -21,4 +21,4 @@ def upload_file(name,folder):
         filename = secure_filename(file.filename)
         file_path = os.path.join('public/' + folder + '/', filename)
         file.save(file_path)
-        return f"http://{request.host}/uploads/{folder}/{filename}"
+        return f"/uploads/{folder}/{filename}"

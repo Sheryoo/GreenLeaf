@@ -1,0 +1,58 @@
+{
+  "Apple": {
+    "Suitable weather": "apples tend to thrive in climates where it's cold in the winter, moderate in the summer and has medium to high humidity rather than a hot and dry climate.",
+    "Water level": "It prefers well-drained soil and moderate levels of moisture. As apple is accustomed to receiving adequate rainfall, it requires regular watering to mimic its native environment. The soil should be consistently moist without being overly saturated."
+  },
+  "Blueberry": {
+    "Suitable weather": "Suitable weather : Optimal Temperature Range for American Blueberry Growth : 70-85°F (21-29°C) during the day is the Goldilocks zone for American Blueberry plants. This range is ideal for photosynthesis and avoids cooking the plant. Nighttime temperatures should be cooler but not frosty, to maintain plant health. ",
+    "Water level": "require at least one inch of water per week (65 gals./100 sq. ft.)"
+  },
+  "Cherry": {
+    "Suitable weather": "The plant prefers temperatures between 41 to 95 ℉ (5 to 35 ℃) and can tolerate frost in the dormant winter period. In the spring, temperatures between 59 to 68 ℉ (15 to 20 ℃) are ideal for flowering. Adjust temperature in hotter summers by providing shelter and shade.",
+    "Water level": "The best freshwater parameters for cherry shrimp are a temperatureOpens in a new tab. between 65°F and 75°F, a pH of 6.5 to 7.5, a GH (General Hardness) between 4-8 dGH, and a KH (Carbonate Hardness) of 1-4 dKH."
+  },
+  "Corn": {
+    "Suitable weather": "Average air temperatures during the late vegetative stages are frequently above 72-75/F, which is considered optimum for corn growth. If too much above, moisture stress may also occur. Under this dual moisture-temperature stress condition, vegetative growth will be reduced.",
+    "Water level": "Crop water use is influenced by atmospheric conditions, crop growth stage, planting date and planting density. Substantial reductions in yield potential can occur if corn does not receive enough water to meet evapotranspiration demands during peak water use in the reproductive growth stages. Irrigation management usually schedules an application of water before the crop reaches a state of severe water stress. Understanding how corn water use changes throughout the season can help guide more efficient irrigation applications."
+  },
+  "Grape": {
+    "Suitable weather": "The overall optimum temperature grapevine growth is 77 and 90 degrees F (25 to 32°C). Any temperature below this optimum range.",
+    "Water level": "While climate and humidity play important roles as well as the soil, a typical grape vine needs 25 to 35 inches (635 to 890 mm) of water a year, occurring during the spring and summer months of the growing season."
+  },
+  "Orange": {
+    "Suitable weather": "Orange Trees demand a specific temperature range to prosper. They thrive when the mercury hovers between 65°F and 85°F (18°C to 29°C).",
+    "Water level": "As little as 5 L per tree will practically eliminate any planting stress and settle the soil around the root system. Any sunken areas or exposed roots that show up after the first watering should be re-covered with soil, while still maintaining the basin."
+  },
+  "Peach": {
+    "Suitable weather": "Peach prefers a temperature range of 41 to 95 ℉ (5 to 35 ℃) during the growing season. In winter, it requires temperatures below 45 ℉ (7 ℃) to release buds and enhance flowering. In summer, it prefers temperatures around 68 to 77 ℉ (20 to 25 ℃) to allow the fruits to develop fully.",
+    "Water level": "The total minimum water requirement for mature peach trees is about 36 inches per year. Under normal conditions a mature peach tree requires about 35 - 40 gallons of water per day during July and August."
+  },
+  "Pepper": {
+    "Suitable weather": "In the case of peppers, the ideal daytime temperature is 21-26°C (70-80°F). The ideal nighttime temperature is 18-21°C (65-70°F). Of course, these ranges may vary, depending on the pepper varieties you grow. Pepper plants may still grow outside of the ideal temperature range.",
+    "Water level": "pepper plants should be watered about once per week and allowed to thoroughly drain. However, this frequency can vary significantly based on the temperature, wind, and the size of the plant and its growing container. During a heat wave, you may need to water your potted peppers every day"
+  },
+  "Potato": {
+    "Suitable weather": "The vegetative growth of the plant is best at a temperature of 24°C while tuber development is favoured at 20°C.",
+    "Water level": "they need relatively high soil moisture levels (60-80% of the available water capacity)."
+  },
+  "Raspberry": {
+    "Suitable weather": "with a preferred temperature range of 41 to 77°F (5 to 25℃). Extreme temperature fluctuations can stress the plant.",
+    "Water level": "It's best to water at ground level - a drip irrigation system or leaky hose is ideal. Keeping the foliage, flowers and fruit dry helps to reduce the risk of fungal diseases. When growing raspberries in a container, water throughout the growing season to keep the compost consistently moist."
+  },
+  "Soybean": {
+    "Suitable weather": "77°F is the best temperature for quick and uniform establishment. Soybean vegetative growth is small or zero at temperatures less than or equal to 50°F. Temperatures above 105°F have an adverse effect on growth rate, causing flowering disturbances and decrease of pod retention.",
+    "Water level": "it uses 400 to 700 mm water as rainfall, irrigation or from soil to form a yield of 3 tonnes/ha. Soybean uses 1,300 to 2,300 tonnes of water per tonne of soybean produced."
+  },
+  "Squash": {
+    "Suitable weather": "Squash plants prefer warm temperatures, generally between 70°F to 95°F (21°C to 35°C).They are sensitive to frost, so it's essential to plant them after the last expected frost date in your region.Sunlight: Similar to tomatoes, squash plants require plenty of sunlight. Aim for at least 6 to 8 hours of direct sunlight per day.Consistent sunlight helps promote healthy plant growth and fruit development.",
+    "Water level": "Squash plants need regular watering to maintain soil moisture, especially during dry periods. However, it's important not to overwater to prevent root diseases. Water at the base of the plants, avoiding wetting the foliage to minimize the risk of fungal issues."
+  },
+  "Strawberry": {
+    "Suitable weather": "strawberries requires temperatures between 50°F - 80°F and less than 14 hours of daylight.",
+    "Water level": "Strawberry plants require around 1 inch of water per week during establishment and 1 to 2 inches per week in production years."
+  },
+  "Tomato": {
+    "Suitable weather": "Tomatoes are warm-season plants and prefer temperatures between 70°F to 85°F (21°C to 29°C) during the day.Night temperatures should not drop below 50°F (10°C) as colder temperatures can stunt growth and affect fruit development. Sunlight: Tomatoes require plenty of sunlight to grow and produce fruit. Aim for at least 6 to 8 hours of direct sunlight per day. Ensure that the plants receive sunlight evenly across all parts to promote even ripening of the fruit.",
+    "Water level": "Tomatoes need consistent watering to maintain soil moisture. However, it's crucial not to overwater, as this can lead to root diseases. Water the plants at the base, avoiding wetting the foliage to prevent fungal diseases."
+  }
+}
