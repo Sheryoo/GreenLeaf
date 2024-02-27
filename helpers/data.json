@@ -1,58 +1,86 @@
 {
   "Apple": {
-    "Suitable weather": "apples tend to thrive in climates where it's cold in the winter, moderate in the summer and has medium to high humidity rather than a hot and dry climate.",
-    "Water level": "It prefers well-drained soil and moderate levels of moisture. As apple is accustomed to receiving adequate rainfall, it requires regular watering to mimic its native environment. The soil should be consistently moist without being overly saturated."
+    "discription": "Apples are temperate fruit trees that require a period of winter chill for proper development and fruiting. Here are some key factors to consider for the suitable weather for growing apples",
+    "temperature": "Apples prefer a temperate climate with a distinct winter season for chilling and a warm growing season. They thrive in a range of temperatures but generally do well in areas where winter temperatures drop below freezing, and summers are warm but not excessively hot.",
+    "sunlight": "Apple trees require full sunlight for optimal fruit production. Ensure they are planted in a location that receives at least 6 to 8 hours of direct sunlight each day.",
+    "watering": "For apple trees, maintain regular watering, ensuring well-drained soil to prevent root issues. Avoid overwatering, especially during dormant periods, and water at the base to minimize fungal disease risks."
   },
   "Blueberry": {
-    "Suitable weather": "Suitable weather : Optimal Temperature Range for American Blueberry Growth : 70-85°F (21-29°C) during the day is the Goldilocks zone for American Blueberry plants. This range is ideal for photosynthesis and avoids cooking the plant. Nighttime temperatures should be cooler but not frosty, to maintain plant health. ",
-    "Water level": "require at least one inch of water per week (65 gals./100 sq. ft.)"
+    "discription": "Blueberries thrive in a specific set of weather conditions, and their growth is influenced by factors such as climate, temperature, and soil. Here are key considerations for the suitable weather for growing blueberries",
+    "temperature": "Blueberries generally prefer a cool climate with winter chilling temperatures between 32°F to 45°F (0°C to 7°C). This chilling requirement varies among different blueberry varieties. During the growing season, blueberries thrive in daytime temperatures between 70°F to 85°F (21°C to 29°C).",
+    "sunlight": "Blueberry plants benefit from full sunlight exposure, ideally receiving at least 6 to 8 hours of direct sunlight daily. This promotes fruit development and overall plant health.",
+    "watering": "Blueberries need consistent moisture, especially during the growing season and fruiting periods. However, they are also sensitive to waterlogged conditions, so well-drained soil is crucial. Mulching around the base of the plants helps retain soil moisture and regulates temperature."
   },
   "Cherry": {
-    "Suitable weather": "The plant prefers temperatures between 41 to 95 ℉ (5 to 35 ℃) and can tolerate frost in the dormant winter period. In the spring, temperatures between 59 to 68 ℉ (15 to 20 ℃) are ideal for flowering. Adjust temperature in hotter summers by providing shelter and shade.",
-    "Water level": "The best freshwater parameters for cherry shrimp are a temperatureOpens in a new tab. between 65°F and 75°F, a pH of 6.5 to 7.5, a GH (General Hardness) between 4-8 dGH, and a KH (Carbonate Hardness) of 1-4 dKH."
+    "discription": "Cherry trees generally prefer a temperate climate with distinct seasons. Here are key factors to consider for the suitable weather for growing cherries",
+    "temperature": "Cherries thrive in regions with cold winters and warm to moderate summers. They prefer daytime temperatures between 75°F to 85°F (24°C to 29°C) during the growing season. However, sweet cherries often require warmer temperatures than sour cherries for optimal fruit development.",
+    "sunlight": "Cherries require full sunlight for at least 6 to 8 hours a day to promote healthy growth and fruiting.",
+    "watering": "Cherries need regular watering, especially during dry periods and when the fruit is developing. However, they are also sensitive to waterlogged conditions, so well-drained soil is crucial. Mulching around the base of the tree helps retain soil moisture and regulate temperature."
   },
   "Corn": {
-    "Suitable weather": "Average air temperatures during the late vegetative stages are frequently above 72-75/F, which is considered optimum for corn growth. If too much above, moisture stress may also occur. Under this dual moisture-temperature stress condition, vegetative growth will be reduced.",
-    "Water level": "Crop water use is influenced by atmospheric conditions, crop growth stage, planting date and planting density. Substantial reductions in yield potential can occur if corn does not receive enough water to meet evapotranspiration demands during peak water use in the reproductive growth stages. Irrigation management usually schedules an application of water before the crop reaches a state of severe water stress. Understanding how corn water use changes throughout the season can help guide more efficient irrigation applications."
+    "discription": "Corn is a warm-season crop, and its growth is influenced by temperature, sunlight, and other environmental factors. Here are the key considerations for the suitable weather for growing corn",
+    "temperature": "Corn thrives in warm temperatures. The optimal soil temperature for planting corn seeds is around 50°F to 86°F (10°C to 30°C). Corn plants are generally sensitive to frost, so it's essential to plant them after the last expected frost date in your region.",
+    "sunlight": "Corn requires full sunlight for optimal growth. Aim for at least 6 to 8 hours of direct sunlight per day. Adequate sunlight promotes photosynthesis, leading to healthy plant development and higher yields.",
+    "watering": "Corn needs consistent soil moisture, especially during critical growth stages like pollination and kernel development. Ensure the soil is evenly moist, but avoid waterlogged conditions, as excessive moisture can lead to root diseases."
   },
   "Grape": {
-    "Suitable weather": "The overall optimum temperature grapevine growth is 77 and 90 degrees F (25 to 32°C). Any temperature below this optimum range.",
-    "Water level": "While climate and humidity play important roles as well as the soil, a typical grape vine needs 25 to 35 inches (635 to 890 mm) of water a year, occurring during the spring and summer months of the growing season."
+    "discription": "Grapes are a versatile fruit that can be grown in a variety of climates, but they generally prefer a Mediterranean climate. Here are the key factors for the suitable weather for growing grapes",
+    "temperature": "Grapes thrive in a warm to hot climate. They generally prefer daytime temperatures between 70°F to 90°F (21°C to 32°C) during the growing season. Grapes also benefit from a winter dormancy period with chilling hours, typically between 32°F to 45°F (0°C to 7°C), to break dormancy and promote healthy growth in the spring.",
+    "sunlight": "Grapes require full sunlight exposure for optimal photosynthesis and fruit development. Aim for at least 6 to 8 hours of direct sunlight per day. Sunlight exposure helps ripen the fruit and contributes to the sugar content in the grapes.",
+    "watering": "Grapes need consistent moisture, especially during the growing season. However, they are susceptible to waterlogged conditions, so well-drained soil is crucial. During dry periods, supplemental irrigation may be necessary to maintain optimal soil moisture."
   },
   "Orange": {
-    "Suitable weather": "Orange Trees demand a specific temperature range to prosper. They thrive when the mercury hovers between 65°F and 85°F (18°C to 29°C).",
-    "Water level": "As little as 5 L per tree will practically eliminate any planting stress and settle the soil around the root system. Any sunken areas or exposed roots that show up after the first watering should be re-covered with soil, while still maintaining the basin."
+    "discription": "Oranges are tropical to subtropical fruit trees that thrive in warm and sunny climates. Here are the key factors for the suitable weather for growing oranges",
+    "temperature": "Oranges prefer a warm to hot climate. They are sensitive to frost, and temperatures below freezing can damage or kill the trees. Ideal daytime temperatures for orange trees range from 70°F to 90°F (21°C to 32°C) during the growing season.",
+    "sunlight": "Oranges require plenty of sunlight for optimal growth and fruit production. Aim for at least 6 to 8 hours of direct sunlight per day. Sunlight exposure is crucial for the development of sugars in the fruit and overall tree health. ",
+    "watering": "Adequate and consistent watering is important for orange trees, especially during dry periods. However, they are also sensitive to waterlogged conditions, so well-drained soil is crucial. Mulching around the base of the trees can help retain soil moisture."
   },
   "Peach": {
-    "Suitable weather": "Peach prefers a temperature range of 41 to 95 ℉ (5 to 35 ℃) during the growing season. In winter, it requires temperatures below 45 ℉ (7 ℃) to release buds and enhance flowering. In summer, it prefers temperatures around 68 to 77 ℉ (20 to 25 ℃) to allow the fruits to develop fully.",
-    "Water level": "The total minimum water requirement for mature peach trees is about 36 inches per year. Under normal conditions a mature peach tree requires about 35 - 40 gallons of water per day during July and August."
+    "discription": "Peach trees thrive in a climate with distinct seasons, generally classified as a temperate climate. Here are the key factors for the suitable weather for growing peaches",
+    "temperature": "Peaches prefer a warm to hot climate during the growing season. Ideal daytime temperatures range from 75°F to 85°F (24°C to 29°C) for optimal growth. Peaches are sensitive to late spring frosts, so it's advisable to plant them after the last expected frost date in your region.",
+    "sunlight": "Peaches require full sunlight for at least 6 to 8 hours a day to promote fruit development and ripening. Adequate sunlight exposure also contributes to the sweetness and flavor of the fruit.",
+    "watering": "Consistent and adequate watering is crucial, especially during dry periods and when the tree is flowering and producing fruit. Avoid waterlogged conditions, as peach trees are susceptible to root diseases."
   },
   "Pepper": {
-    "Suitable weather": "In the case of peppers, the ideal daytime temperature is 21-26°C (70-80°F). The ideal nighttime temperature is 18-21°C (65-70°F). Of course, these ranges may vary, depending on the pepper varieties you grow. Pepper plants may still grow outside of the ideal temperature range.",
-    "Water level": "pepper plants should be watered about once per week and allowed to thoroughly drain. However, this frequency can vary significantly based on the temperature, wind, and the size of the plant and its growing container. During a heat wave, you may need to water your potted peppers every day"
+    "discription": "Peppers, including bell peppers and chili peppers, are warm-season vegetables that thrive in a climate with warm temperatures and plenty of sunlight. Here are key factors for the suitable weather for growing peppers",
+    "temperature": "Peppers prefer warm to hot temperatures. The optimal soil temperature for planting pepper seeds is around 70°F to 85°F (21°C to 29°C). Daytime temperatures between 70°F to 90°F (21°C to 32°C) are generally ideal for pepper plants during the growing season.",
+    "sunlight": "Peppers require full sunlight for optimal growth and fruit development. Aim for at least 6 to 8 hours of direct sunlight per day. Adequate sunlight exposure promotes the formation of flowers and the development of fruit.",
+    "watering": "Peppers need consistent moisture, especially during the flowering and fruiting stages. However, they are also sensitive to waterlogged conditions, so well-drained soil is crucial. Water the plants at the base to avoid wetting the foliage, which can reduce the risk of fungal diseases."
   },
   "Potato": {
-    "Suitable weather": "The vegetative growth of the plant is best at a temperature of 24°C while tuber development is favoured at 20°C.",
-    "Water level": "they need relatively high soil moisture levels (60-80% of the available water capacity)."
+    "discription": "Potatoes are a cool-season crop that grows best in cooler temperatures. Here are key factors for the suitable weather for growing potatoes",
+    "temperature": "Potatoes thrive in cool to mild temperatures. The optimal soil temperature for planting potatoes is around 45°F to 55°F (7°C to 13°C). Planting potatoes in early spring, when the soil has warmed to at least 45°F (7°C), is common in many regions.",
+    "sunlight": "Potatoes require full sunlight for optimal growth. They should receive at least 6 to 8 hours of direct sunlight each day. Adequate sunlight exposure is crucial for the development of healthy foliage and tubers",
+    "watering": "Potatoes need consistent moisture, especially during the growing season. However, they are also susceptible to waterlogged conditions, so well-drained soil is important. Avoid overwatering and ensure the soil remains evenly moist."
   },
   "Raspberry": {
-    "Suitable weather": "with a preferred temperature range of 41 to 77°F (5 to 25℃). Extreme temperature fluctuations can stress the plant.",
-    "Water level": "It's best to water at ground level - a drip irrigation system or leaky hose is ideal. Keeping the foliage, flowers and fruit dry helps to reduce the risk of fungal diseases. When growing raspberries in a container, water throughout the growing season to keep the compost consistently moist."
+    "discription": "Raspberries are hardy perennial plants that grow well in temperate climates. Here are key factors for the suitable weather for growing raspberries",
+    "temperature": "Raspberries prefer cool to mild temperatures during the growing season. The ideal daytime temperature range for raspberry plants is around 70°F to 80°F (21°C to 27°C). Raspberries also require a period of winter chill with temperatures between 32°F to 45°F (0°C to 7°C) to break dormancy and promote flowering and fruiting in the spring.",
+    "sunlight": "Raspberries require full sunlight for optimal growth and fruit production. Aim for at least 6 to 8 hours of direct sunlight per day. Adequate sunlight exposure contributes to the sweetness and flavor of the berries.",
+    "watering": "Raspberries need consistent moisture, especially during dry periods and when the plants are flowering and producing fruit. Mulching around the base of the plants helps retain soil moisture and suppress weeds."
   },
   "Soybean": {
-    "Suitable weather": "77°F is the best temperature for quick and uniform establishment. Soybean vegetative growth is small or zero at temperatures less than or equal to 50°F. Temperatures above 105°F have an adverse effect on growth rate, causing flowering disturbances and decrease of pod retention.",
-    "Water level": "it uses 400 to 700 mm water as rainfall, irrigation or from soil to form a yield of 3 tonnes/ha. Soybean uses 1,300 to 2,300 tonnes of water per tonne of soybean produced."
+    "discription": "Soybeans are warm-season crops, and their growth is influenced by temperature, sunlight, and other environmental factors. Here are key considerations for the suitable weather for growing soybeans",
+    "temperature": "Soybeans thrive in warm temperatures. The optimal temperature range for soybean growth is between 77°F to 86°F (25°C to 30°C). Soybeans are sensitive to frost, and they should be planted after the last expected frost date in your region.",
+    "sunlight": "Soybeans require full sunlight for optimal growth and yield. Aim for at least 6 to 8 hours of direct sunlight per day.",
+    "watering": "Soybeans need consistent moisture, especially during critical growth stages like flowering and pod development. However, they are also somewhat drought-tolerant. Avoid waterlogged conditions, as soybeans are susceptible to root diseases."
   },
   "Squash": {
-    "Suitable weather": "Squash plants prefer warm temperatures, generally between 70°F to 95°F (21°C to 35°C).They are sensitive to frost, so it's essential to plant them after the last expected frost date in your region.Sunlight: Similar to tomatoes, squash plants require plenty of sunlight. Aim for at least 6 to 8 hours of direct sunlight per day.Consistent sunlight helps promote healthy plant growth and fruit development.",
-    "Water level": "Squash plants need regular watering to maintain soil moisture, especially during dry periods. However, it's important not to overwater to prevent root diseases. Water at the base of the plants, avoiding wetting the foliage to minimize the risk of fungal issues."
+    "discription": "Squash is a warm-season crop that thrives in temperatures and conditions similar to those preferred by tomatoes. Here are some key factors to consider for the suitable weather for growing squash",
+    "temperature": "Squash plants prefer warm temperatures, generally between 70°F to 95°F (21°C to 35°C). They are sensitive to frost, so it's essential to plant them after the last expected frost date in your region.",
+    "sunlight": "Similar to tomatoes, squash plants require plenty of sunlight. Aim for at least 6 to 8 hours of direct sunlight per day. Consistent sunlight helps promote healthy plant growth and fruit development.",
+    "watering": "Squash plants need regular watering to maintain soil moisture, especially during dry periods. However, it's important not to overwater to prevent root diseases. Water at the base of the plants, avoiding wetting the foliage to minimize the risk of fungal issues."
   },
   "Strawberry": {
-    "Suitable weather": "strawberries requires temperatures between 50°F - 80°F and less than 14 hours of daylight.",
-    "Water level": "Strawberry plants require around 1 inch of water per week during establishment and 1 to 2 inches per week in production years."
+    "discription": "Strawberries are versatile plants that can be grown in a variety of climates, but they generally prefer temperate conditions. Here are key factors for the suitable weather for growing strawberries",
+    "temperature": "Strawberries thrive in cool to mild temperatures. The ideal temperature range for strawberry plants is between 60°F to 80°F (15°C to 27°C) during the growing season. They require a period of winter chill, with temperatures between 32°F to 45°F (0°C to 7°C), to break dormancy and promote flowering in the spring.",
+    "sunlight": "Strawberries require full sunlight for optimal growth and fruit production. Aim for at least 6 to 8 hours of direct sunlight per day. Adequate sunlight exposure contributes to fruit sweetness and overall plant health.",
+    "watering": "Consistent and adequate watering is crucial, especially during the flowering and fruiting stages. However, strawberries are sensitive to waterlogged conditions, so well-drained soil is essential. Drip irrigation or watering at the base of the plants is preferable to avoid wetting the foliage and reduce the risk of diseases."
   },
   "Tomato": {
-    "Suitable weather": "Tomatoes are warm-season plants and prefer temperatures between 70°F to 85°F (21°C to 29°C) during the day.Night temperatures should not drop below 50°F (10°C) as colder temperatures can stunt growth and affect fruit development. Sunlight: Tomatoes require plenty of sunlight to grow and produce fruit. Aim for at least 6 to 8 hours of direct sunlight per day. Ensure that the plants receive sunlight evenly across all parts to promote even ripening of the fruit.",
-    "Water level": "Tomatoes need consistent watering to maintain soil moisture. However, it's crucial not to overwater, as this can lead to root diseases. Water the plants at the base, avoiding wetting the foliage to prevent fungal diseases."
+    "discription": "Tomatoes thrive in warm and sunny weather, making them a popular crop for summer gardens. Here are some key factors to consider for the suitable weather for growing tomatoes",
+    "temperature": "Tomatoes are warm-season plants and prefer temperatures between 70°F to 85°F (21°C to 29°C) during the day. Night temperatures should not drop below 50°F (10°C) as colder temperatures can stunt growth and affect fruit development.",
+    "sunlight": "Tomatoes require plenty of sunlight to grow and produce fruit. Aim for at least 6 to 8 hours of direct sunlight per day. Ensure that the plants receive sunlight evenly across all parts to promote even ripening of the fruit.",
+    "watering": "Tomatoes need consistent watering to maintain soil moisture. However, it's crucial not to overwater, as this can lead to root diseases. Water the plants at the base, avoiding wetting the foliage to prevent fungal diseases."
   }
 }

@@ -5,7 +5,6 @@ import os
 
 def create_connection():
     conn = sqlite3.connect("database.db")
-    print(os.path.abspath("database.db"))
     return conn
 
 

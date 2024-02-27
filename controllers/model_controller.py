@@ -23,7 +23,8 @@ def classify_image():
     model = tf.keras.models.load_model(
         './models/my_model.h5')
     img_path = 'public/plants/' + filename
-    img = tf.keras.preprocessing.image.load_img(img_path, target_size=(128, 128))
+    img = tf.keras.preprocessing.image.load_img(
+        img_path, target_size=(128, 128))
     img_array = tf.keras.preprocessing.image.img_to_array(img)
     img_array = np.expand_dims(img_array, axis=0)
 
@@ -33,8 +34,11 @@ def classify_image():
     with open("./helpers/data.json", 'r') as file:
         plants_data = json.load(file)
 
-    Sutable_weather = plants_data[finall_class.split(' ')[0]]["Suitable weather"]
-    Water_level = plants_data[finall_class.split(' ')[0]]["Water level"]
+    discription = plants_data[finall_class.split(' ')[0]]["discription"]
+    temperature = plants_data[finall_class.split(' ')[0]]["temperature"]
+    sunlight = plants_data[finall_class.split(' ')[0]]["sunlight"]
+    watering = plants_data[finall_class.split(' ')[0]]["watering"]
+
     return jsonify(
         {
             "status": True,
@@ -43,7 +47,9 @@ def classify_image():
                 'predictions': finall_class,
                 "confidence": confidence,
                 "image": plantPath,
-                "Suitable weather": Sutable_weather,
-                "Water level": Water_level
+                "discription": discription,
+                "temperature": temperature,
+                "sunlight": sunlight,
+                "watering": watering
             }
         }), 200

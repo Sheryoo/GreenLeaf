@@ -41,5 +41,5 @@ def classify_api(email): return classify_image()
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host=os.getenv('HOST')
+    app.run(host=os.getenv('HOST')
             or 'localhost', port=os.getenv('PORT') or 3000)
