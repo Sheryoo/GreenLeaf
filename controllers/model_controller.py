@@ -1,14 +1,17 @@
 import json
 from flask import request, jsonify
 from helpers.class_names import class_names
+from helpers.generate_pdf import generate_classification_report
 from helpers.upload_images import upload_file
 from werkzeug.utils import secure_filename
 
 import tensorflow as tf
 import numpy as np
 
+from models.model import add_model_data
 
-def classify_image():
+
+def classify_image(email):
     if 'file' not in request.files:
         return jsonify({"status": False, 'message': 'No file part in the request', 'data': None}), 400
 
@@ -38,7 +41,10 @@ def classify_image():
     temperature = plants_data[finall_class.split(' ')[0]]["temperature"]
     sunlight = plants_data[finall_class.split(' ')[0]]["sunlight"]
     watering = plants_data[finall_class.split(' ')[0]]["watering"]
-
+    add_model_data(predictions=finall_class, confidence=confidence, image=plantPath, discription=discription,
+                   temperature=temperature, sunlight=sunlight, watering=watering, userEmail=email)
+    report = generate_classification_report(
+        [finall_class, confidence, discription, temperature, sunlight, watering, email])
     return jsonify(
         {
             "status": True,
@@ -50,6 +56,7 @@ def classify_image():
                 "discription": discription,
                 "temperature": temperature,
                 "sunlight": sunlight,
-                "watering": watering
+                "watering": watering,
+                "report_path": report
             }
         }), 200

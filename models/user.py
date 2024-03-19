@@ -1,6 +1,5 @@
 import sqlite3
 import bcrypt
-import os
 
 
 def create_connection():

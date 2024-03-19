@@ -1,4 +1,5 @@
 from flask import Flask, send_from_directory
+from models.model import create_model_table
 from models.user import create_connection, create_user_table
 from helpers.jwt_helper import auth_token
 from controllers.user_controllers import register, login, get_user_data, update_user_data, update_password
@@ -12,6 +13,7 @@ app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
 
 conn = create_connection()
 create_user_table(conn)
+create_model_table(conn)
 
 @app.route('/register', methods=['POST'])
 def register_api(): return register(app)
@@ -37,8 +39,7 @@ def get_uploaded_file(filename,folder):
 
 @app.route('/classify', methods=['POST'])
 @auth_token
-def classify_api(email): return classify_image()
-
+def classify_api(email): return classify_image(email)
 
 if __name__ == '__main__':
     app.run(host=os.getenv('HOST')
