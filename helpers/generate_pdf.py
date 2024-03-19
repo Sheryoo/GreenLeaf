@@ -30,7 +30,7 @@ def generate_classification_report(data):
         fontSize=24
     )
     report_content.append(
-        Paragraph(f"{data[0].split(' ')[0]} Classification Report:\n", title_style))
+        Paragraph(f"{data[0].split(' ')[0]} Classification Report\n", title_style))
 
     report_content.append(
         Paragraph(f"<b>Confidence:</b>{data[1]}", confidence_style))
