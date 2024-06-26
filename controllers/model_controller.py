@@ -30,33 +30,49 @@ def classify_image(email):
         img_path, target_size=(128, 128))
     img_array = tf.keras.preprocessing.image.img_to_array(img)
     img_array = np.expand_dims(img_array, axis=0)
+    img_array /= 255.
 
     prediction = model.predict(img_array)
     confidence = round(100*(np.max(prediction[0])), 2)
-    finall_class = class_names()[np.argmax(prediction)]
-    with open("./helpers/data.json", 'r') as file:
-        plants_data = json.load(file)
 
-    discription = plants_data[finall_class.split(' ')[0]]["discription"]
-    temperature = plants_data[finall_class.split(' ')[0]]["temperature"]
-    sunlight = plants_data[finall_class.split(' ')[0]]["sunlight"]
-    watering = plants_data[finall_class.split(' ')[0]]["watering"]
-    add_model_data(predictions=finall_class, confidence=confidence, image=plantPath, discription=discription,
-                   temperature=temperature, sunlight=sunlight, watering=watering, userEmail=email)
-    report = generate_classification_report(
-        [finall_class, confidence, discription, temperature, sunlight, watering, email])
-    return jsonify(
-        {
-            "status": True,
-            "message": "Image classified successfully",
-            "data": {
-                'predictions': finall_class,
-                "confidence": confidence,
-                "image": plantPath,
-                "discription": discription,
-                "temperature": temperature,
-                "sunlight": sunlight,
-                "watering": watering,
-                "report_path": report
-            }
-        }), 200
+    max_probability = np.max(prediction)
+
+    if max_probability < 0.7:
+        return jsonify(
+            {
+                "status": False,
+                "message": "Image is not a plant",
+                "data": {
+                    'predictions': "Image is not a plant",
+                    "confidence": confidence,
+                    "image": plantPath,
+                }
+            }), 200
+    else:
+        finall_class = class_names()[np.argmax(prediction)]
+        with open("./helpers/data.json", 'r') as file:
+            plants_data = json.load(file)
+
+        discription = plants_data[finall_class.split(' ')[0]]["discription"]
+        temperature = plants_data[finall_class.split(' ')[0]]["temperature"]
+        sunlight = plants_data[finall_class.split(' ')[0]]["sunlight"]
+        watering = plants_data[finall_class.split(' ')[0]]["watering"]
+        add_model_data(predictions=finall_class, confidence=confidence, image=plantPath, discription=discription,
+                       temperature=temperature, sunlight=sunlight, watering=watering, userEmail=email)
+        report = generate_classification_report(
+            [finall_class, confidence, discription, temperature, sunlight, watering, email])
+        return jsonify(
+            {
+                "status": True,
+                "message": "Image classified successfully",
+                "data": {
+                    'predictions': finall_class,
+                    "confidence": confidence,
+                    "image": plantPath,
+                    "discription": discription,
+                    "temperature": temperature,
+                    "sunlight": sunlight,
+                    "watering": watering,
+                    "report_path": report
+                }
+            }), 200
